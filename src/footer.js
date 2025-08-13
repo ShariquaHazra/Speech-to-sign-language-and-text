@@ -1,7 +1,7 @@
 function Footer(){
     return(
         <footer className="footer">
-            Ayush Upadhyay @ 2024
+           Shariqua Hazra
         </footer>
     )
 }

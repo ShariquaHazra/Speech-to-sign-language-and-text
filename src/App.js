@@ -86,7 +86,7 @@ function App() {
 
   return (
     <div className="App">
-      <h2>Enter input audio</h2>
+      <h2>Speech input</h2>
       <button onClick={handleButtonClick}>
         <img src={"mic.png"} alt="mic" height='60px' width='60px'/>
         <br /><br />
@@ -96,7 +96,7 @@ function App() {
     <textarea
         value={transcript}
         readOnly
-        placeholder="Transcribed text will appear here..."
+        placeholder="Output In Text..."
         rows="3"
         cols="50"
       />
@@ -123,7 +123,7 @@ function App() {
           <p>{nlpResults.lemmas.join(', ')}</p>
         </div>
       )} */}
-      <h2><p className='video'>Sign Language Video Output</p></h2>
+      <h2><p className='video'>Indian Sign Language Video Output</p></h2>
       <div className="video-container">
         <SignLanguageDisplay text={transcript} />
       </div>

@@ -1,7 +1,7 @@
 import './App.css';
 function Navbar() {
     return(
-        <nav className="n"><h1> SPEECHSIGN-AI: SPEECH TO INDIAN SIGN LANGUAGE CONVERTER</h1> 
+        <nav className="n"><h1> श्रव्य संकेत-Audible Signs </h1> 
         </nav>
     )
 }
